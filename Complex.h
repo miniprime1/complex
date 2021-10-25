@@ -47,4 +47,4 @@ complex operator*(complex z1, complex z2) { return z1 *= z2; }
 complex operator/(complex z1, complex z2) { return z1 /= z2; }
 
 bool operator==(complex z1, complex z2) { return z1.real() == z2.real() && z1.imag() == z2.imag(); }
-bool operator==(complex z1, complex z2) { return !(z1 == z2); }
+bool operator!=(complex z1, complex z2) { return !(z1 == z2); }
